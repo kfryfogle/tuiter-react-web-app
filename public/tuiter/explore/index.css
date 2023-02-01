@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial;
+    background-color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top: rgb(110, 118, 125) solid 0.01px;
+    min-width: max-content;
+}
+
+.wd-side-borders {
+    border-left: rgb(110, 118, 125) solid 0.01px;
+    border-right: rgb(110, 118, 125) solid 0.01px;
+}
+
+.wd-search-content {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-search-input {
+    width: 88%;
+    background-color: rgba(50, 57, 66, 70%);
+    color: white;
+    border-color: transparent;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.wd-search-input::placeholder {
+    padding-left: 30px;
+}
+
+.wd-search-input:focus {
+    padding-left: 40px;
+    width: 81%;
+}
+
+.wd-search-input:focus::placeholder {
+    padding-left: 0px;
+}
+.wd-magnifying-glass {
+    color: rgb(110, 118, 125);
+    position: absolute;
+    left: 48px;
+    top: 23px;
+}
+
+.wd-search-content a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(29,161,242);
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 40px;
+}
+
+.wd-settings {
+    padding-left: 10px;
+    width: fit-content;
+}
+
+.wd-navbar-content {
+    font-size: 15px;
+    min-width: max-content;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-navbar-block {
+    float: left;
+    padding: 16px 16px 0px 16px;
+}
+
+.wd-navbar-block-1 {
+    color: rgb(29,161,242);
+    border-bottom: 3px solid rgb(29, 161, 242);
+    height: 30px;
+}
+
+.wd-navbar-block-n {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-border {
+    border: rgb(110, 118, 125) solid 0.01px;
+}
+
+.wd-suggested-posts {
+    color: white;
+}
+
+.wd-suggested-posts p {
+    color: rgb(110, 118, 125);
+    padding-left: 12px;
+    float: left;
+    font-size: 13px;
+    line-height: 165%;
+}
+
+.wd-image-post {
+    padding-bottom: 8px;
+}
+
+.wd-text-post {
+    padding-bottom: 8px;
+}
+
+.wd-content-box-news-profile {
+    padding-bottom: 12px;
+}
+
+.wd-text-content-image-post {
+    width: fit-content;
+}
+
+.wd-text-content-text-post {
+    width: 92%;
+}
+
+.wd-suggested-posts .headline {
+    color: white;
+    font-size: 16px;
+}
+
+.wd-suggested-posts .author {
+    color: white;
+}
+
+.wd-image-box {
+    float: right;
+    width: fit-content;
+    padding-right: 8px;
+
+}
+
+.wd-image-box img {
+    border-radius: 10px;
+}
+
+.wd-three-dots {
+    color: rgb(110, 118, 125);
+    font-size: 24px;
+    float: right;
+    width: 8%;
+}
+
+.wd-border-merge-top {
+    border: rgb(110, 118, 125) solid 0.01px;
+    border-bottom: none;
+}
+
+.wd-border-merge-bottom {
+    border: rgb(110, 118, 125) solid 0.01px;
+    border-top: none;
+}
+

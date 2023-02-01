@@ -1,0 +1,14 @@
+.ttr-navigation {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ttr-navigation > li {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.ttr-navigation > li > a {
+    text-decoration: none;
+}

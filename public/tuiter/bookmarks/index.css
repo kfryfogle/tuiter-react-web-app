@@ -186,7 +186,6 @@ body {
 
 .wd-like-count {
     float: left;
-    color: deeppink;
     position: relative;
     top: 4px;
 }
@@ -206,4 +205,8 @@ body {
 
 .wd-text-light-grey {
     color: rgb(110, 118, 125);
+}
+
+.wd-text-red-pink {
+    color: deeppink;
 }

@@ -19,13 +19,15 @@
 .wd-tuit-section .wd-search-input-sm {
     width: 98%;
     border-radius: 20px;
-    border-color: rgb(110, 118, 125);
+    border: solid rgb(110, 118, 125);
+    box-shadow: none;
 }
 
 .wd-tuit-section .wd-search-input-lg {
     width: 98%;
     border-radius: 20px;
-    border-color: rgb(110, 118, 125);
+    border: solid rgb(110, 118, 125);
+    box-shadow: none;
 }
 
 .wd-search-input-sm::placeholder {

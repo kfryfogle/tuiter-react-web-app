@@ -152,10 +152,6 @@
     top: 4px;
 }
 
-.zindex-bring-to-front {
-    z-index: 10;
-}
-
 .wd-profile-image {
     float: left;
     position: relative;

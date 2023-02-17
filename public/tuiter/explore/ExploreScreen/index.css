@@ -2,7 +2,7 @@
     border-radius: 20px;
 }
 
-.wd-tuit-section .wd-btn-ovrd-shape-twt {
+.wd-btn-ovrd-shape-twt {
     border-radius: 20px;
     width: 100%;
 }
@@ -14,20 +14,24 @@
 
 .wd-flex-box-search {
     width: 85%;
+    color: gray;
 }
 
-.wd-tuit-section .wd-search-input-sm {
+.wd-search-input-sm {
     width: 98%;
     border-radius: 20px;
     border: 1px solid rgb(110, 118, 125);
     box-shadow: none;
+    background-color: white;
+    color: gray;
 }
 
-.wd-tuit-section .wd-search-input-lg {
+.wd-search-input-lg {
     width: 98%;
     border-radius: 20px;
     border: 1px solid rgb(110, 118, 125);
     box-shadow: none;
+    background-color: white;
 }
 
 .wd-search-input-sm::placeholder {
@@ -39,19 +43,19 @@
     border: 1px solid black;
 }
 
-.wd-tuit-section .wd-headline-box-sm {
-    color: white;
-    height: 0px;
-    position: relative;
-    bottom: 35px;
-    padding-left: 10px;
-}
-
-.wd-tuit-section .wd-headline-box-lg {
+.wd-headline-box-sm {
     color: white;
     height: 0px;
     position: relative;
     bottom: 50px;
+    padding-left: 10px;
+}
+
+.wd-headline-box-lg {
+    color: white;
+    height: 0px;
+    position: relative;
+    bottom: 60px;
     padding-left: 10px;
 }
 
@@ -71,35 +75,34 @@
     color: gray;
 }
 
-.wd-tuit-section .wd-search-input-sm:focus::placeholder {
+.wd-search-input-sm:focus::placeholder {
     padding-left: 0px;
+    color: gray;
 }
 
-.wd-tuit-section .wd-search-input-lg::placeholder {
+.wd-search-input-lg::placeholder {
+    padding-left: 30px;
+    color: gray;
+}
+
+.wd-search-input-lg:focus {
     padding-left: 30px;
 }
 
-.wd-tuit-section .wd-search-input-lg:focus {
-    padding-left: 30px;
-}
-
-.wd-tuit-section .wd-search-input-lg:focus::placeholder {
+.wd-search-input-lg:focus::placeholder {
     padding-left: 0px;
+    color: gray;
 }
 
-.wd-tuit-section .wd-search-icon {
+.wd-search-icon {
     position: relative;
     left: 20px;
     width: 1px;
+    color: gray;
 }
 
-.wd-tuit-section .flex-box-gear {
+.flex-box-gear {
     width: 10%;
-    color: #0d6efd;
-}
-
-.zindex-bring-to-front {
-    z-index: 10;
 }
 
 .wd-profile-image {
@@ -155,7 +158,7 @@
 }
 
 .wd-post-relevance b {
-    color: black;
+    color: white;
 }
 
 .wd-more-shuffle-left {
@@ -194,3 +197,11 @@
     margin: 0;
 }
 
+.wd-nav-link-box {
+    min-width: max-content;
+    max-width: max-content;
+}
+
+.wd-list-group {
+    min-width: max-content;
+}

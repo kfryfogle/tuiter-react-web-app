@@ -1,0 +1,207 @@
+.wd-btn-ovrd-shape {
+    border-radius: 20px;
+}
+
+.wd-btn-ovrd-shape-twt {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-flex-box-search {
+    width: 85%;
+    color: gray;
+}
+
+.wd-search-input-sm {
+    width: 98%;
+    border-radius: 20px;
+    border: 1px solid rgb(110, 118, 125);
+    box-shadow: none;
+    background-color: white;
+    color: gray;
+}
+
+.wd-search-input-lg {
+    width: 98%;
+    border-radius: 20px;
+    border: 1px solid rgb(110, 118, 125);
+    box-shadow: none;
+    background-color: white;
+}
+
+.wd-search-input-sm::placeholder {
+    padding-left: 30px;
+}
+
+.wd-search-input-sm:focus {
+    padding-left: 32px;
+    border: 1px solid black;
+}
+
+.wd-headline-box-sm {
+    color: white;
+    height: 0px;
+    position: relative;
+    bottom: 50px;
+    padding-left: 10px;
+}
+
+.wd-headline-box-lg {
+    color: white;
+    height: 0px;
+    position: relative;
+    bottom: 60px;
+    padding-left: 10px;
+}
+
+.wd-headline {
+    color: white;
+}
+
+.wd-headline-relevance {
+    color: white;
+}
+
+.wd-image-headline {
+    width: 100%;
+}
+
+.wd-search-text {
+    color: gray;
+}
+
+.wd-search-input-sm:focus::placeholder {
+    padding-left: 0px;
+    color: gray;
+}
+
+.wd-search-input-lg::placeholder {
+    padding-left: 30px;
+    color: gray;
+}
+
+.wd-search-input-lg:focus {
+    padding-left: 30px;
+}
+
+.wd-search-input-lg:focus::placeholder {
+    padding-left: 0px;
+    color: gray;
+}
+
+.wd-search-icon {
+    position: relative;
+    left: 20px;
+    width: 1px;
+    color: gray;
+}
+
+.flex-box-gear {
+    width: 10%;
+}
+
+.wd-profile-image {
+    float: left;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
+
+.wd-image-frame-business {
+    border-radius: 2px;
+}
+
+.wd-image-frame-profile {
+    border-radius: 20px;
+}
+
+.wd-follow-box {
+    float: right;
+}
+
+.wd-profile-info {
+    float: left;
+    min-width: max-content;
+}
+
+.wd-profile-suggestion {
+    min-width: max-content;
+}
+
+.wd-content-width {
+    min-width: max-content;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-image-headline-container {
+    width: fit-content;
+    max-width: content-box;
+}
+
+.wd-image-post-box img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.wd-post-relevance {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-relevance b {
+    color: white;
+}
+
+.wd-more-shuffle-left {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.wd-move-left {
+    right: 3%;
+}
+
+.wd-side-borders {
+    border-left: lightgrey solid 1px;
+    border-right: lightgrey solid 1px;
+}
+
+.wd-top-border {
+    border-top: lightgrey solid 1px;
+}
+
+.wd-container-middle {
+    display: flex;
+    justify-content: left;
+}
+
+.wd-info-box {
+    float: left;
+    width: 33%;
+    margin: 0;
+}
+
+.wd-info-box-last {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.wd-nav-link-box {
+    min-width: max-content;
+    max-width: max-content;
+}
+
+.wd-list-group {
+    min-width: max-content;
+}

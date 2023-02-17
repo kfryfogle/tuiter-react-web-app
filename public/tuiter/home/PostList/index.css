@@ -1,0 +1,20 @@
+.wd-post-interaction-item {
+    width: 25%;
+    float: left;
+}
+
+.wd-post-interaction-item a {
+    text-decoration: none;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-post-item {
+    border: 1px solid black;
+}
+
+.wd-tag {
+    text-decoration: none;
+}

@@ -10,7 +10,7 @@ const HomeComponent = () => {
             {/* Retweet Post */}
             <div className="container wd-post-list-item">
                 <div className="row">
-                    <div className="col-1 mt-2"></div>
+                    <div className="col-1 mt-2"> </div>
                     <div className="col-11 mt-2">
                         <span className="wd-post-relevance">
                             <b><FontAwesomeIcon icon={faRetweet}/> Elon Musk Retweeted</b>
@@ -19,7 +19,7 @@ const HomeComponent = () => {
                 </div>
                 <div className="row">
                     <div className="col-1 wd-post-item-image text-center wd-content-width">
-                        <img className="wd-image-frame-profile-post" width="40px" height="40px" src="/images/spacex.jpeg"/>
+                        <img className="wd-image-frame-profile-post" width="40px" height="40px" src="/images/spacex.jpeg"></img>
                     </div>
                     <div className="col-10 wd-post-item-info">
                         <div className="row mt-0 pt-0">
@@ -48,7 +48,7 @@ const HomeComponent = () => {
                             <div className="col-12 pt-2">
                                 <div className="list-group">
                                     <img className="list-group-item m-0 p-0 wd-bg-transparent"
-                                         src="/images/titos.jpeg"/>
+                                         src="/images/titos.jpeg"></img>
                                 </div>
                             </div>
                             {/* comments, retuits, likes, share */}
@@ -81,9 +81,9 @@ const HomeComponent = () => {
             {/* Comment Post */}
             <div className="container wd-post-list-item-n">
                 <div className="row">
-                    <div className="mt-3"></div>
+                    <div className="mt-3"> </div>
                     <div className="col-1 wd-post-item-image text-center wd-content-width">
-                        <img className="wd-image-frame-profile-post" width="40px" height="40px" src="/images/starship_mk1.jpeg"/>
+                        <img className="wd-image-frame-profile-post" width="40px" height="40px" src="/images/starship_mk1.jpeg"></img>
                     </div>
                     <div className="col-10 wd-post-item-info">
                         <div className="row mt-0 pt-0">

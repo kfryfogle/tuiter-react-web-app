@@ -233,6 +233,11 @@
     float: left;
 }
 
+.wd-post-interaction-button {
+    border: none;
+    background-color: transparent;
+}
+
 .wd-clean-link {
     text-decoration: none;
 }
@@ -248,4 +253,76 @@
 
 .wd-float-box {
     float: left;
+}
+
+.wd-fg-like {
+    color: red;
+}
+
+.wd-badge-blue {
+    color: #0d6efd;
+}
+
+.wd-fg-grey {
+    color: rgb(110, 118, 125);
+}
+
+.wd-profile-name-head {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.wd-accent-text {
+    font-size: small;
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-edit-button {
+    font-size: medium;
+    font-weight: bold;
+    background-color: transparent;
+    border: rgb(110, 118, 125) solid 1px;
+}
+
+.wd-profile-img-position {
+    position: relative;
+    bottom: 80px;
+}
+
+.wd-profile-img-div {
+    height: 50px;
+}
+
+.wd-save-button {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.wd-edit-box {
+    border-color: rgb(110, 118, 125);
+    resize: none;
+    padding-top: 20px;
+    padding-left: 9px;
+}
+
+.wd-edit-top {
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.wd-edit-date-button {
+    border-color: transparent;
+    color: #0d6efd;
+    background-color: transparent;
+}
+
+.wd-date-space {
+    margin-bottom: 170px;
 }

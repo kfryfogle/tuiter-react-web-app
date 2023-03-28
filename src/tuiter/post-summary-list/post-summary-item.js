@@ -4,12 +4,14 @@ import {
     faCheckCircle,
     faComment,
     faHeart,
+    faThumbsDown,
     faRetweet,
     faShare,
     faX
 } from "@fortawesome/free-solid-svg-icons";
 import {useDispatch} from "react-redux";
-import {deleteTuit, toggleLike} from "../tuits/tuits-reducer";
+import {toggleLike} from "../tuits/tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 const PostSummaryItem = (
     {
@@ -34,7 +36,7 @@ const PostSummaryItem = (
         dispatch(toggleLike(index));
     }
     const deleteTuitClickHandler = (index) => {
-        dispatch(deleteTuit(index));
+        dispatch(deleteTuitThunk(index));
     }
     return(
         <li className="list-group-item">
@@ -45,10 +47,10 @@ const PostSummaryItem = (
                 <div className="col-10">
                     <div className={"row"}>
                         <div className={"col-10"}>
-                            <b>{post.userName}</b> <FontAwesomeIcon className={"wd-badge-blue"} icon={faCheckCircle}/> • {post.time}
+                            <b>{post.username}</b> <FontAwesomeIcon className={"wd-badge-blue"} icon={faCheckCircle}/> • {post.time}
                         </div>
                         <div className={"col-2 text-end "}>
-                            <button onClick={() => deleteTuitClickHandler(post)}
+                            <button onClick={() => deleteTuitClickHandler(post._id)}
                                     className={"wd-post-relevance wd-post-interaction-button"}>
                                 <FontAwesomeIcon icon={faX}/>
                             </button>
@@ -66,11 +68,25 @@ const PostSummaryItem = (
                                 <FontAwesomeIcon icon={faRetweet}/> {post.retuits} </a>
                         </div>
                         <div className="wd-post-interaction-item">
-                            <button className={`wd-post-interaction-button`}
-                                    onClick={() => likeToggleClickHandler(post)}>
-                                <span className={`${post.liked ? 'wd-fg-like' : 'wd-post-relevance'}`}>
+                            <button className={`wd-post-interaction-button wd-post-relevance`}
+                                    onClick={() => dispatch(updateTuitThunk({
+                                        ...post,
+                                        likes: post.likes + 1,
+                                        }))}>
+                                <span className={'wd-fg-like'}>
                                     <FontAwesomeIcon icon={faHeart}/>
                                 </span> {post.likes}
+                            </button>
+                        </div>
+                        <div className="wd-post-interaction-item">
+                            <button className={`wd-post-interaction-button wd-post-relevance`}
+                                    onClick={() => dispatch(updateTuitThunk({
+                                        ...post,
+                                        dislikes: post.dislikes + 1,
+                                    }))}>
+                                <span>
+                                    <FontAwesomeIcon icon={faThumbsDown}/>
+                                </span> {post.dislikes}
                             </button>
                         </div>
                         <div className="wd-post-interaction-item">
